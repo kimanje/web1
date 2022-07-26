@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Core Media | News</title>
+<style>
+    body td a{
+       color: aliceblue;
+       font-size: 20px;
+   }
+   /*----all section---*/
+   section{
+       height: auto;
+   }
+   /*----header section---*/
+   .header_sec{
+       background-color: white;
+       border-bottom: 5px solid #244d86;
+       height: 80px;
+       
+   }
+   .header_sec div{  /*this one wrks on upper section only*/
+       height: 80px;
+       
+   }
+
+    /*this one will affect the logo div only*/
+   .logo{    
+       width: 30%;
+       float: left;
+       
+   }
+   .logo img{
+       height: 100%;
+       width: auto;
+
+   }
+
+    /*this one will affect the nav div only*/
+   .nav{     
+      text-align: center;
+      float:right;
+      width: 69%;
+      }
+      .nav ul{
+      }
+      .nav li{
+       display: inline;
+       margin-right: 15PX;
+       padding: 10px;
+       padding-bottom: 10px;
+       text-decoration: none;
+      }
+      .nav a{
+       font-size: 18px;
+       text-decoration: none;
+       color: #244d86;
+       font-weight: bold;
+      }
+      .nav a:hover{
+       color: orange;
+      }
+      /*This affects top image section*/
+      .slide img{
+       width: 100%;
+      }
+
+      /*This affects serv section*/
+.serv_1{
+   background-image: url(img/services.jpg);
+   height: 200px;
+   width: 100%;
+   background-size: cover;
+   color: aliceblue;
+   text-align: center;
+   font-size: 50px;
+}
+.cont{
+   background-color: #244d866c;
+   height: 100%;
+   line-height: 200px;
+
+
+}
+
+.footer{
+       background-color: #244d86;
+       height: auto;
+     }
+     .footer p{
+       color: aliceblue;
+       font-size: 20px;
+     }
+     .footer h3{
+       color: orange;
+     }
+
+</style>
+</head>
+
+<body>
+<!---this header=------>
+<section class="header_sec" id="hsec">
+   <!---logo start------>
+   <div class="logo">
+           <a href=""><img src="img/logo.png" alt="core media networks"/></a>
+   </div>
+   <!---logo end------>
+   <!---nav start------>
+   <div class="nav">
+       <ul>
+           <li><a href="about us.html">About Us</a></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="contacts.html">Contact us</a></li>
+           <li><a href="news.html">News</a></li>
+           <li><a href="index.html">Home</a></li>
+           <li><input type="text" name=""  /><button>search</button></li>
+       </ul>
+   </div>
+       <!--nav end-->
+</section>
+<!------header end--->
+
+<!--- top image start------>
+<section class="serv">
+   <div class="serv_1">
+       <div class="cont">
+           <h3>NEWS UPDATES </h3>
+           
+       </div>
+   </div>
+</section>
+<!------top image end--->
+
+<!---news section start -->
+<section class="news">
+    <div style="padding-left: 5%; padding-right: 5%; padding-top: 20px; padding-bottom: 20px; ">
+        <table>
+            <tr>
+                <td >
+                    <img src="img/insta.png" alt=""/>
+                  <h3>Instagram Users Call for the App to Stop  </h3>      
+                     <p>This is probably not ideal for Instagram, and its new approach 
+                        to content sorting, as it seeks to keep up with the roaring success of TikTok.</p>   
+                </td>
+                <td>
+                    <img src="img/twitter.png" alt=""/>
+
+                    <h3>Twitter Adds Hashtag Discovery</h3>
+                    <p>Twitter’s added a new discovery element to its group-like Communities, </p>
+                </td>
+                <td>
+                    <img src="img/fbk.png" alt=""/>
+
+                    <h3>Twitter Adds 9 Million Users</h3>
+                    <p>Amid ongoing uncertainty around the Elon Musk acquisition, 
+                        Twitter has shared its latest performance update, posting
+                         an increase in active users,  </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<!---news section start -->
+
+
+<!---footer start---->
+<section class="footer">
+   <div>
+      <table  width="100%">
+       <tr>
+           <td width="30%" style="padding-left:5% ; ">
+               <h3>About Us</h3>
+               <p>We are a media consulting company that helps companies, organisations ...<a href="about us.html">Read more</a></p>
+                           </td>
+           <td width="30%" style="text-align:center;"><h3>Useful links</h3>
+               <p><a href="services.html">our services</a></br>
+               <a href="contacts.html">contact us</a></p>
+           </td>
+           <td width="30%" style="padding-right:5%;"><h3>Contact us</h3>
+               <p>Tel:0774881979,  0701840337</br>
+                   Email:kimanje.michaael@gmail.com</a></p>
+           </td>
+           
+       </tr>
+      </table>
+   </div>
+</section>
+<!------footer end--->
+
+</body>
+</html>
